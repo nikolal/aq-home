@@ -66,10 +66,11 @@ const {height, width} = Dimensions.get('window')
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 54,
   },
   image: {
     height: 200,
+    backgroundColor: 'grey',
+    opacity: 0.8
   },
   text: {
     position: 'absolute',
@@ -88,13 +89,13 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold',
     textShadowColor: 'grey',
-    textShadowOffset: {width: 2, height: 2},
-    textShadowRadius: 2
+    textShadowOffset: {width: 1, height: 1},
+    textShadowRadius: 1
   },
   description: {
     color: 'white',
     fontSize: 13,
-    fontWeight: 'bold',
+    fontWeight: '400',
     textShadowColor: 'grey',
     textShadowOffset: {width: 0.5, height: 0.5},
     textShadowRadius: 0.5

@@ -12,7 +12,7 @@ import List from './List'
 class aqhome extends Component {
   render() {
     return (
-      <View>
+      <View style={styles.container}>
         <Search />
         <List />
       </View>
@@ -23,6 +23,7 @@ export default aqhome
 
 const styles = StyleSheet.create({
   container: {
-    // marginTop: 54
+    marginTop: 54,
+    // flex: 1
   },
 });
